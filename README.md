@@ -8,7 +8,7 @@ version: 3.16.2
 version: 18.8.0
 
 ## NPM
-version: 8.17.0
+version: 8.19.1
 
 ## Yarn
 version: 1.22.19
