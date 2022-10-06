@@ -3,7 +3,7 @@ name: Build and Publish Docker
 on:
         push:
                 branches:
-                        - 14.20.
+                        - 14.20.1
         workflow_dispatch:
 
 jobs:
