@@ -1,4 +1,4 @@
-FROM node:16.17.1-alpine
+FROM node:16.18.0-alpine
 
 LABEL maintainer="NOW ROOM<system@nowroom.jp>"
 
