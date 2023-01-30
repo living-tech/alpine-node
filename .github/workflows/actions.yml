@@ -3,7 +3,7 @@ name: Build and Publish Docker
 on:
         push:
                 branches:
-                        - 19.4.0
+                        - 19.5.0
         workflow_dispatch:
 
 jobs:
@@ -31,4 +31,4 @@ jobs:
                                   context: .
                                   push: true
                                   tags: |
-                                          ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:19.4.0
+                                          ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:19.5.0
