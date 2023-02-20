@@ -5,7 +5,7 @@ Lightweight node docker image on alpine
 version: 3.17.2
 
 ## NodeJS
-version: 19.6.0
+version: 19.6.1
 
 ## NPM
 version: 9.5.0
