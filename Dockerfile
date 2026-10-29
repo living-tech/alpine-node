@@ -7,6 +7,7 @@ ENV APP_ROOT=/node
 WORKDIR $APP_ROOT
 
 RUN apk update \
+  && apk upgrade --no-cache \
   && npm i --location=global npm \
   && apk add tzdata git \
   && TZ=${TZ:-Asia/Tokyo} \
