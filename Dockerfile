@@ -1,12 +1,13 @@
 FROM node:22.23.4-alpine
 
-LABEL maintainer="NOW ROOM<system@nowroom.jp>"
+LABEL maintainer="シャトク<system@shatoku.com>"
 
 ENV APP_ROOT=/node
 
 WORKDIR $APP_ROOT
 
 RUN apk update \
+  && apk upgrade --no-cache \
   && npm i --location=global npm \
   && apk add tzdata git \
   && TZ=${TZ:-Asia/Tokyo} \
